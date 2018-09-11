@@ -5,9 +5,9 @@
 ##################################################################################
 #                                LOGIC GOES BELOW                     		#
 ##################################################################################
-#
-#
-#
+#We require 2 variables a and b (let). b to store the current generated random number and a to store the previously generated random number.
+#Now initialize a variable e=0 which denotes the expected values. Using while loop we keep on generating random values and if b>a, then we update 
+#the value of e by adding e=e+b*1/6. When b<=a, we simply exit the while loop and return the expected value e from the function.
 #
 #
 ##################################################################################
